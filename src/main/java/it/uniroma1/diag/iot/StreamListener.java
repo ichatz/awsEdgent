@@ -1,10 +1,5 @@
 package main.java.it.uniroma1.diag.iot;
 
-import com.google.gson.JsonObject;
-import com.sun.net.httpserver.HttpServer;
-import it.uniroma1.diag.iot.functions.ParseMeasurement;
-import it.uniroma1.diag.iot.model.StationData;
-import org.apache.edgent.connectors.mqtt.MqttConfig;
 import org.apache.edgent.connectors.mqtt.MqttStreams;
 import org.apache.edgent.providers.development.DevelopmentProvider;
 import org.apache.edgent.providers.direct.DirectProvider;
@@ -13,8 +8,6 @@ import org.apache.edgent.topology.Topology;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.HashMap;
-import java.util.Map;
 
 public class StreamListener {
 

@@ -1,13 +1,11 @@
 package it.uniroma1.diag.iot;
 
-import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 import it.uniroma1.diag.iot.functions.ParseMeasurement;
 import it.uniroma1.diag.iot.model.StationData;
 import org.apache.edgent.analytics.math3.Aggregations;
 import org.apache.edgent.analytics.math3.MvResultMap;
 import org.apache.edgent.analytics.math3.ResultMap;
-import org.apache.edgent.analytics.math3.stat.Regression2;
 import org.apache.edgent.analytics.math3.stat.Statistic2;
 import org.apache.edgent.connectors.mqtt.MqttStreams;
 import org.apache.edgent.function.Function;
@@ -20,9 +18,6 @@ import org.apache.edgent.topology.Topology;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.concurrent.TimeUnit;
 
 public class WindowPublisher {
 
