@@ -1,0 +1,13 @@
+# Stream-based data processing based on MQTT and Apache Edgent.
+
+Cloud-based and Edge-based data processing in IoT deployments with hands-on example using Apache Flink and Apache Edgent.
+
+Code examples used during Lecture 8: IoT Data Processing, of the [Internet of Things course 2020](http://ichatz.me/Site/InternetOfThings2020), 
+part of the MSc on Computer Engineering, Department of Computer, Control and Management Engineering (DIAG), 
+Sapienza University of Rome.
+
+More information:
+
+[Course Home Page](http://ichatz.me/Site/InternetOfThings2020)
+
+[Lecture talk](https://youtu.be/0rXK9lWKZz4)
